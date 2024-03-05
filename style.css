@@ -34,7 +34,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-    background: #98FB98;
+    background: #a6dee2;
 }
 
 .nav-links {
@@ -103,7 +103,7 @@ section {
 }
 
 .section_text_p2 {
-    font-size: 1.75rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -247,7 +247,27 @@ section {
     color: rgb(85, 85, 85);
   }
   
+  .logo-image {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
   
+.section_text {
+    text-align: center; /* Center the content */
+}
+
+.center-container {
+    display: inline-block; /* Center the logo within the container */
+}
+
 
   
 
